@@ -2,7 +2,21 @@
   "name": "@nuxtjs/harlem",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Harlem integration for Nuxt",
+  "repository": "nuxt-community/harlem-module",
+  "keywords": [
+    "nuxt",
+    "module",
+    "nuxt-module",
+    "harlem",
+    "store"
+  ],
+  "author": {
+    "name": "Daniel Roe <daniel@roe.dev>",
+    "url": "https://github.com/danielroe"
+  },
   "type": "module",
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/module.mjs",
