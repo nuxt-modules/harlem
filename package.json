@@ -1,0 +1,42 @@
+{
+  "name": "@nuxtjs/harlem",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+  },
+  "dependencies": {
+    "@harlem/core": "^2.2.3",
+    "@harlem/plugin-devtools": "^2.2.3",
+    "@harlem/plugin-ssr": "^2.2.3",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "knitwork": "^0.1.0",
+    "scule": "^0.2.1"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@release-it/conventional-changelog": "4.1.0",
+    "@types/serve-static": "1.13.10",
+    "eslint": "latest",
+    "eslint-config-prettier": "^8.3.0",
+    "nuxt3": "^3.0.0-27398533.8edd481",
+    "prettier": "2.5.1",
+    "release-it": "14.12.4"
+  }
+}
