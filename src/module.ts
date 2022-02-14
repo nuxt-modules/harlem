@@ -5,6 +5,14 @@ import { pascalCase } from 'scule'
 import { genArrayFromRaw, genImport } from 'knitwork'
 
 export interface ModuleOptions {
+  /**
+   * Additional Harlem plugins to set up.
+   *
+   * SSR support is always enabled, and this defaults to add
+   * devtools support when in local development.
+   *
+   * @default ['@harlem/plugin-devtools']
+   */
   plugins: string[]
 }
 
