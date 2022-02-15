@@ -8,6 +8,10 @@
 
 > [Harlem](https://harlemjs.com/) integration for [Nuxt](https://v3.nuxtjs.org)
 
+Harlem is a simple, unopinionated, lightweight and extensible state management solution for Vue 3. It is designed to suit projects of all sizes and developers of all different levels of experience.
+
+- [👉 &nbsp;More about Harlem](https://harlemjs.com/)
+
 ## Features
 
 - 👌 Zero-config required
@@ -28,6 +32,65 @@ yarn add @nuxtjs/harlem # or npm install @nuxtjs/harlem
 3. Follow the [Harlem guide on how to create and use your stores](https://harlemjs.com/guide/introduction/getting-started.html#create-your-first-store).
 
    **Note**: `createStore` will be auto-imported wherever you use it, so you don't need to import it yourself.
+
+## Example
+
+Here's a minimal example - you can copy and paste this into your app with no extra steps.
+
+### `~/stores/user.ts`
+
+```ts
+const STATE = {
+  firstName: 'John',
+  lastName: 'Smith',
+}
+
+export const { state, getter, mutation, ...store } = createStore('user', STATE)
+
+export const fullName = getter('fullName', state => {
+  return `${state.firstName} ${state.lastName}`
+})
+
+export const setFirstName = mutation<string>('setFirstName', (state, payload) => {
+  state.firstName = payload
+})
+
+export const setLastName = mutation<string>('setLastName', (state, payload) => {
+  state.lastName = payload
+})
+```
+
+### `~/app.vue`
+
+```ts
+<template>
+  <div class="app">
+    <h1>Hello {{ fullName }}</h1>
+    <input v-model="firstName" type="text" placeholder="First name" />
+    <input v-model="lastName" type="text" placeholder="Last name" />
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { computed } from 'vue'
+
+import { state, fullName, setFirstName, setLastName } from './store/user'
+
+const firstName = computed({
+  get: () => state.firstName,
+  set: value => setFirstName(value),
+})
+
+const lastName = computed({
+  get: () => state.lastName,
+  set: value => setLastName(value),
+})
+
+setLastName('Doe')
+</script>
+```
+
+For more info and examples, check out the [Harlem docs](https://harlemjs.com/) and [repository](https://github.com/andrewcourtice/harlem).
 
 ## Development
 
