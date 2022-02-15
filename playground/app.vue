@@ -7,9 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue'
-
-import { state, fullName, setFirstName, setLastName } from './store/user'
+import { state, fullName, setFirstName, setLastName } from '~/store/user'
 
 const firstName = computed({
   get: () => state.firstName,
