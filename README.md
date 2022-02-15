@@ -27,6 +27,8 @@ yarn add @nuxtjs/harlem # or npm install @nuxtjs/harlem
 
 3. Follow the [Harlem guide on how to create and use your stores](https://harlemjs.com/guide/introduction/getting-started.html#create-your-first-store).
 
+   **Note**: `createStore` will be auto-imported wherever you use it, so you don't need to import it yourself.
+
 ## Development
 
 - Run `yarn prepare` to generate type stubs.

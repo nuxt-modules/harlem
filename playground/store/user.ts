@@ -1,5 +1,3 @@
-import { createStore } from '@harlem/core'
-
 const STATE = {
   firstName: 'John',
   lastName: 'Smith',
