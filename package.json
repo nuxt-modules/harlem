@@ -43,11 +43,11 @@
     "scule": "^0.2.1"
   },
   "devDependencies": {
-    "@nuxt/module-builder": "latest",
+    "@nuxt/module-builder": "^0.1.7",
     "@nuxtjs/eslint-config-typescript": "latest",
     "@release-it/conventional-changelog": "4.1.0",
     "@types/serve-static": "1.13.10",
-    "eslint": "latest",
+    "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "nuxt3": "^3.0.0-27420403.16e2a54",
     "prettier": "2.5.1",
