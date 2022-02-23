@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   test: {
     coverage: {
-      include: ['dist'],
+      include: ['src', 'dist'],
       reporter: ['text', 'json'],
     },
   },

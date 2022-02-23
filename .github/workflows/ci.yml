@@ -50,7 +50,7 @@ jobs:
       - name: Build project
         run: yarn build
 
-      - name: Test
+      - name: Test built module
         run: yarn test:e2e --coverage
 
       - name: Coverage
