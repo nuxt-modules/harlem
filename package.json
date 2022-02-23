@@ -32,7 +32,8 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "test:e2e": "vitest run test/e2e"
   },
   "dependencies": {
     "@harlem/core": "^2.2.3",
@@ -44,13 +45,18 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.1.7",
+    "@nuxt/test-utils": "npm:@nuxt/test-utils-edge@latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "@release-it/conventional-changelog": "4.1.0",
     "@types/serve-static": "1.13.10",
+    "c8": "^7.11.0",
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "nuxt3": "^3.0.0-27420403.16e2a54",
+    "playwright": "^1.19.1",
     "prettier": "2.5.1",
-    "release-it": "14.12.4"
+    "release-it": "14.12.4",
+    "vite": "^2.8.4",
+    "vitest": "^0.5.3"
   }
 }
