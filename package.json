@@ -51,7 +51,7 @@
     "@release-it/conventional-changelog": "4.1.0",
     "@types/serve-static": "1.13.10",
     "c8": "^7.11.0",
-    "eslint": "^8.9.0",
+    "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
     "nuxt3": "^3.0.0-27430570.4cfad4d",
     "playwright": "^1.19.2",
