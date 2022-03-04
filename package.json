@@ -37,7 +37,7 @@
     "test:e2e": "vitest run test/e2e"
   },
   "dependencies": {
-    "@harlem/core": "^2.2.3",
+    "@harlem/core": "^2.3.1",
     "@harlem/plugin-devtools": "^2.2.3",
     "@harlem/plugin-ssr": "^2.2.3",
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
