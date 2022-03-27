@@ -53,7 +53,7 @@
     "c8": "^7.11.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
-    "nuxt3": "^3.0.0-27467464.a0c4d6e",
+    "nuxt3": "^3.0.0-27470397.9ebea90",
     "playwright": "^1.20.1",
     "prettier": "2.6.1",
     "release-it": "14.13.1",
