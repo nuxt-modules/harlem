@@ -57,7 +57,7 @@
     "playwright": "^1.20.2",
     "prettier": "2.6.2",
     "release-it": "14.13.1",
-    "vite": "^2.8.6",
+    "vite": "^2.9.1",
     "vitest": "^0.7.12"
   }
 }
