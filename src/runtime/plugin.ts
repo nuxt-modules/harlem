@@ -28,7 +28,7 @@ export default defineNuxtPlugin(nuxtApp => {
     }
   }
 
-  // useMeta({
+  // useHead({
   //   script: [{ children: computed(() => getBridgingScript()) }],
   // })
 })

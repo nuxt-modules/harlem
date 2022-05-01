@@ -40,7 +40,7 @@
     "@harlem/core": "^2.3.3",
     "@harlem/plugin-devtools": "^2.3.3",
     "@harlem/plugin-ssr": "^2.3.3",
-    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "@nuxt/kit": "^3.0.0-rc.1",
     "knitwork": "^0.1.1",
     "scule": "^0.2.1"
   },
@@ -53,7 +53,7 @@
     "c8": "^7.11.2",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "nuxt3": "^3.0.0-rc.1-27520989.22954d0",
+    "nuxt": "npm:nuxt3@latest",
     "playwright": "^1.21.1",
     "prettier": "2.6.2",
     "release-it": "14.14.3",
