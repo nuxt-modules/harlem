@@ -432,7 +432,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.0.0-rc.1", "@nuxt/kit@^3.0.0-rc.1":
+"@nuxt/kit@3.0.0-rc.1", "@nuxt/kit@^3.0.0-rc.1", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-rc.1-27520989.22954d0":
   version "3.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.1.tgz#c6197351970d85eecb17d646667178ecefb2b955"
   integrity sha512-S2x0zdLYLZ4/2lMnS6emSmFPJszPJf70Y4/8gpmkPb4TArEjPNaOTCIz7tKpj/Upo71fv7cfuwYw/X0F2UAntg==
@@ -454,30 +454,6 @@
     semver "^7.3.7"
     unctx "^1.1.4"
     unimport "^0.1.6"
-    untyped "^0.4.4"
-
-"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-rc.1-27520989.22954d0":
-  version "3.0.0-rc.1-27520989.22954d0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-rc.1-27520989.22954d0.tgz#13453f7bbb64d85b8457d206d496526b489655b6"
-  integrity sha512-0zNhrgp1tfmOH5S7Tmtxi3TvU05P3lRLc76KOsu8yhhtV+ixquFxtw8VlgUldvDBUizsnY2Bx279yBVjzARNdA==
-  dependencies:
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-rc.1-27520989.22954d0"
-    c12 "^0.2.7"
-    consola "^2.15.3"
-    defu "^6.0.0"
-    globby "^13.1.1"
-    hash-sum "^2.0.0"
-    ignore "^5.2.0"
-    jiti "^1.13.0"
-    knitwork "^0.1.1"
-    lodash.template "^4.5.0"
-    mlly "^0.5.2"
-    pathe "^0.2.0"
-    pkg-types "^0.3.2"
-    scule "^0.2.1"
-    semver "^7.3.7"
-    unctx "^1.1.4"
-    unimport "^0.1.8"
     untyped "^0.4.4"
 
 "@nuxt/module-builder@^0.1.7":
