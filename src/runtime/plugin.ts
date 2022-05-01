@@ -19,10 +19,10 @@ export default defineNuxtPlugin(nuxtApp => {
   })
 
   // Workaround until we have support in vueuse/head
-  if (process.server && 'renderMeta' in nuxtApp.ssrContext) {
+  if (process.server && nuxtApp.ssrContext && 'renderMeta' in nuxtApp.ssrContext) {
     const originalRender = nuxtApp.ssrContext.renderMeta
     nuxtApp.ssrContext.renderMeta = async () => {
-      const result = await originalRender()
+      const result = originalRender ? await originalRender() : {}
       result.bodyScripts = (result.bodyScripts || '') + getBridgingScriptBlock()
       return result
     }

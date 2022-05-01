@@ -26,7 +26,7 @@ export default defineNuxtModule<ModuleOptions>({
     },
   },
   defaults: nuxt => ({
-    plugins: [nuxt.options.dev && '@harlem/plugin-devtools'].filter(Boolean),
+    plugins: [nuxt.options.dev && '@harlem/plugin-devtools'].filter(Boolean) as string[],
   }),
   setup(options, nuxt) {
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
