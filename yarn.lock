@@ -312,17 +312,12 @@
     "@harlem/utilities" "^2.3.6"
     "@vue/devtools-api" "^6.1.4"
 
-"@harlem/plugin-ssr@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@harlem/plugin-ssr/-/plugin-ssr-2.3.5.tgz#4641ce9aff44413a322faf06899bf6bea086d89e"
-  integrity sha512-1J5io+8peg34F6lsEKbroqGnV2VWJa3UjOpySF9ppt8s3lxLN0iDfmfJq4CGXqrYy31Tv1PhXbgFb6+ya/VRcg==
+"@harlem/plugin-ssr@^2.3.6":
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@harlem/plugin-ssr/-/plugin-ssr-2.3.6.tgz#b86c81535757b99d5f84a1f31a4e5665fa5bd296"
+  integrity sha512-XDQlEkO44CupOHFCa4xNMYibJb1LMmIbXBDndbzw3MH9gIsECe/vx6dM+z8Ga2613aVOVk4mg3zVyLgJ0tuWVw==
   dependencies:
-    "@harlem/utilities" "^2.3.5"
-
-"@harlem/utilities@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@harlem/utilities/-/utilities-2.3.5.tgz#c71b403d42e685402699325779013eacc4bb83f9"
-  integrity sha512-d/nnycHHD0aysG/RSxrkfgdAfGiMCmSVf5oRRanVY5vZWdABczn390F4BfZCqGDVscjQTKKXZJnVeglQcr9ywA==
+    "@harlem/utilities" "^2.3.6"
 
 "@harlem/utilities@^2.3.6":
   version "2.3.6"
