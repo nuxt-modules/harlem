@@ -304,12 +304,12 @@
   dependencies:
     "@harlem/utilities" "^2.3.7"
 
-"@harlem/plugin-devtools@^2.3.6":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@harlem/plugin-devtools/-/plugin-devtools-2.3.6.tgz#769530bb9e36ef320ed8e533a4415994d47d038d"
-  integrity sha512-YSaL5MKBd8/DyylleI69FHh3b6qLCxxuCR2tk+tSp1pZd5ICm99Cq6nTBekw5EiZDU5chTupzq8xEpWw2rhLpA==
+"@harlem/plugin-devtools@^2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@harlem/plugin-devtools/-/plugin-devtools-2.3.7.tgz#40b082d6f9495497e172d4c6fdac8fb680b396b5"
+  integrity sha512-9xHtW8IkLGFNe+ZEBnkjwaFc6mtFNmJX5bMWYgPYi0rhO9yPdT2s6D/P75xGuvZ91VaP3gD2RPLBpQPwbA84cA==
   dependencies:
-    "@harlem/utilities" "^2.3.6"
+    "@harlem/utilities" "^2.3.7"
     "@vue/devtools-api" "^6.1.4"
 
 "@harlem/plugin-ssr@^2.3.6":
