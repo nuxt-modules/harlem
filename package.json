@@ -57,7 +57,7 @@
     "nuxt": "npm:nuxt3@latest",
     "playwright": "^1.24.2",
     "prettier": "2.7.1",
-    "release-it": "15.1.4",
+    "release-it": "15.2.0",
     "vite": "^2.9.14",
     "vitest": "^0.18.1"
   }
