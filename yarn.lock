@@ -302,13 +302,13 @@
   dependencies:
     "@harlem/utilities" "^2.3.8"
 
-"@harlem/plugin-devtools@^2.3.8":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@harlem/plugin-devtools/-/plugin-devtools-2.3.8.tgz#15f5580f00f6a118b50ee27e0637af2a491fc35c"
-  integrity sha512-kFJeMjB8CCPtyR19bS9TaJgt8WkgcZ59nussu3KXuX7BjthkPKvPvA7beIfJUa/8/4axEUWyCEvbkjmiBkxdZg==
+"@harlem/plugin-devtools@^2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@harlem/plugin-devtools/-/plugin-devtools-2.3.9.tgz#fb3c49cb49405899881d9e6cca6d604923a87000"
+  integrity sha512-z9jnzfiRoDP+Ty4p19fu9HiQ80TT9VrtpB8SCdeTUBn2JvFwtKOae0gtCkA4rCWqSkzRe5FPYzcZQO38XDGkoQ==
   dependencies:
-    "@harlem/utilities" "^2.3.8"
-    "@vue/devtools-api" "^6.1.4"
+    "@harlem/utilities" "^2.3.9"
+    "@vue/devtools-api" "^6.2.1"
 
 "@harlem/plugin-ssr@^2.3.8":
   version "2.3.8"
@@ -321,6 +321,11 @@
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/@harlem/utilities/-/utilities-2.3.8.tgz#744f26a586badd0dc3a2a16f5fffca4b2ab17db9"
   integrity sha512-RMkj7CwCZBYaignk0bFJdpi0ABQNFDF77odoenCI7imBeC9aTm9AZIlTHpXDZrconDILeic2XEhzBt5xVkqBdg==
+
+"@harlem/utilities@^2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@harlem/utilities/-/utilities-2.3.9.tgz#afa97ccabab9c91665be8e929f86655c79e2d907"
+  integrity sha512-GrLhjYtiNuCe5fb1Lb52pkvwiGdO3aJokrl3+3JU6w2aNYDlkK4v1mHy4g5ZXthWDYGIskKXSU0K2OsBDrwvMg==
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
@@ -1238,7 +1243,7 @@
     "@vue/compiler-dom" "3.2.37"
     "@vue/shared" "3.2.37"
 
-"@vue/devtools-api@^6.1.4":
+"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.2.1":
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
   integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
