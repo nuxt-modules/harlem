@@ -295,12 +295,12 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@harlem/core@^2.3.8":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@harlem/core/-/core-2.3.8.tgz#6d309d6e3a88e224634fe3f685a0736aa8770b1d"
-  integrity sha512-C+JkK2ya8kBHHhnSEPbqS8U4WWF9nz8qzYTs5LzYOmHRv4pmnVxZY4o2sJ9YaOKbjBu9XJC3ekN72u1tcUB5Iw==
+"@harlem/core@^2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@harlem/core/-/core-2.3.9.tgz#41b6f4015b85413d8af0b74b76f5ee3d7e496017"
+  integrity sha512-bBSQOUXUkQoo575opkqSG8lPfxCYTj7TVxyVnh35fnYnuzWHBNu4/q37e9tf81EuDZscY+wYAXqYt/rRnyPwlQ==
   dependencies:
-    "@harlem/utilities" "^2.3.8"
+    "@harlem/utilities" "^2.3.9"
 
 "@harlem/plugin-devtools@^2.3.9":
   version "2.3.9"
