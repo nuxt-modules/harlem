@@ -22,6 +22,11 @@
       "packagePatterns": ["lint"],
       "groupName": "all lint dependencies",
       "groupSlug": "all-lint"
+    },
+    {
+      "matchPackageNames": ["nuxt", "nuxt3"],
+      "matchPackagePatterns": ["^@nuxt/"],
+      "commitMessageTopic": "Nuxt core"
     }
   ]
 }
