@@ -7503,9 +7503,9 @@ unbuild@^0.6.7:
     untyped "^0.3.0"
 
 unctx@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/unctx/-/unctx-1.1.4.tgz#18d5c0a81d9ce0a790e89b81715f286ac0fa29bb"
-  integrity sha512-fQMML+GjUpIjQa0HBrrJezo2dFpTAbQbU0/KFKw4T5wpc9deGjLHSYthdfNAo2xSWM34csI6arzedezQkqtfGw==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/unctx/-/unctx-1.2.0.tgz#223537956059c0ed1aa6abd3244388f490c8e402"
+  integrity sha512-r3p62XKSMvgttYu3fFf52rteqcguwQENJ863dOGM1xM3uUbSNbr+zAuTohMyKx2pcZLmjusgcnl1cAWaZbCzKg==
   dependencies:
     acorn "^8.7.0"
     estree-walker "^2.0.2"
