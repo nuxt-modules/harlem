@@ -1,22 +1,17 @@
 {
   "extends": [
-    "config:base",
+    "github>nuxt/renovate-config-nuxt",
     "packages:linters",
     ":labels(dependencies,devops)",
     ":maintainLockFilesWeekly",
     ":enableVulnerabilityAlerts",
     ":automergeLinters",
     ":automergeTypes",
-    ":semanticCommitTypeAll(chore)",
     ":automergePatch"
   ],
   "rebaseStalePrs": true,
   "prCreation": "not-pending",
-  "rangeStrategy": "bump",
   "assignees": ["danielroe"],
-  "npm": {
-    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-  },
   "packageRules": [
     {
       "matchPackagePatterns": ["lint"],
