@@ -19,14 +19,15 @@
   },
   "packageRules": [
     {
-      "packagePatterns": ["lint"],
+      "matchPackagePatterns": ["lint"],
       "groupName": "all lint dependencies",
       "groupSlug": "all-lint"
     },
     {
+      "groupName": "nuxt core",
+      "groupSlug": "nuxt",
       "matchPackageNames": ["nuxt", "nuxt3"],
-      "matchPackagePatterns": ["^@nuxt/"],
-      "commitMessageTopic": "Nuxt core"
+      "matchPackagePatterns": ["^@nuxt/"]
     }
   ]
 }
