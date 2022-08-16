@@ -58,8 +58,8 @@
     "playwright": "^1.25.0",
     "prettier": "2.7.1",
     "release-it": "15.3.0",
-    "vite": "^2.9.14",
-    "vitest": "^0.21.1"
+    "vite": "^3.0.8",
+    "vitest": "^0.22.0"
   },
   "resolutions": {
     "@nuxtjs/harlem": "link:./"
