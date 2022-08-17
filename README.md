@@ -11,6 +11,7 @@
 Harlem is a simple, unopinionated, lightweight and extensible state management solution for Vue 3. It is designed to suit projects of all sizes and developers of all different levels of experience.
 
 - [👉 &nbsp;More about Harlem](https://harlemjs.com/)
+- [▶️ &nbsp;Online playground](https://stackblitz.com/github/nuxt-community/harlem-module/tree/main/playground)
 
 ## Features
 
@@ -92,8 +93,11 @@ For more info and examples, check out the [Harlem docs](https://harlemjs.com/) a
 
 ## Development
 
-- Run `yarn prepare` to generate type stubs.
-- Use `yarn dev` to start [playground](./playground) in development mode.
+- Clone this repository
+- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable` (use `npm i -g corepack` for Node.js < 16.10)
+- Install dependencies using `pnpm install`
+- Run `pnpm prepare` to generate type stubs.
+- Use `pnpm dev` to start [playground](./playground) in development mode.
 
 ## Licence
 
