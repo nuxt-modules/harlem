@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "license": "MIT",
   "description": "Harlem integration for Nuxt",
-  "repository": "nuxt-community/harlem-module",
+  "repository": "nuxt-modules/harlem",
   "keywords": [
     "nuxt",
     "module",
