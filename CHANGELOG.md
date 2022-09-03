@@ -1,5 +1,12 @@
 
 
+### [1.1.1](https://github.com/nuxt-modules/harlem/compare/1.1.0...1.1.1) (2022-09-03)
+
+
+### Bug Fixes
+
+* update nuxt compatibility ([25ac965](https://github.com/nuxt-modules/harlem/commit/25ac965f0851e5b0a96999abdd7056d21f31cf21))
+
 ## [1.1.0](https://github.com/nuxt-modules/harlem/compare/1.0.1...1.1.0) (2022-05-01)
 
 
