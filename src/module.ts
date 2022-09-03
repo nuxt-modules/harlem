@@ -1,6 +1,6 @@
 import { resolve } from 'path'
 import { fileURLToPath } from 'url'
-import { defineNuxtModule, addPlugin, addTemplate, addAutoImport } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, addTemplate, addImports } from '@nuxt/kit'
 import { pascalCase } from 'scule'
 import { genArrayFromRaw, genImport } from 'knitwork'
 
@@ -41,7 +41,7 @@ export default defineNuxtModule<ModuleOptions>({
         ].join('\n'),
     })
     addPlugin(resolve(runtimeDir, 'plugin'))
-    addAutoImport({ name: 'createStore', as: 'createStore', from: '@harlem/core' })
+    addImports({ name: 'createStore', as: 'createStore', from: '@harlem/core' })
     // TODO: emit native node ESM from `@harlem/*`
     nuxt.options.build.transpile.push(runtimeDir, /@harlem\//)
   },
