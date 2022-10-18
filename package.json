@@ -66,5 +66,5 @@
     "@nuxtjs/harlem": "link:./",
     "@nuxt/vite-builder": "npm:@nuxt/vite-builder-edge@latest"
   },
-  "packageManager": "pnpm@7.13.4"
+  "packageManager": "pnpm@7.13.5"
 }
