@@ -45,7 +45,7 @@
     "scule": "^0.3.2"
   },
   "devDependencies": {
-    "@nuxt/module-builder": "^0.1.7",
+    "@nuxt/module-builder": "^0.2.0",
     "@nuxt/schema": "3.0.0-rc.12",
     "@nuxt/test-utils": "npm:@nuxt/test-utils-edge@latest",
     "@nuxtjs/eslint-config-typescript": "11.0.0",
