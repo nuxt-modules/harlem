@@ -27,7 +27,7 @@ importers:
       playwright: ^1.27.1
       prettier: 2.7.1
       release-it: 15.5.0
-      scule: ^0.3.2
+      scule: ^1.0.0
       vite: ^3.2.3
       vitest: ^0.25.1
     dependencies:
@@ -36,7 +36,7 @@ importers:
       '@harlem/plugin-ssr': 2.3.9_@harlem+core@2.3.9
       '@nuxt/kit': 3.0.0-rc.13
       knitwork: 0.1.3
-      scule: 0.3.2
+      scule: 1.0.0
     devDependencies:
       '@nuxt/module-builder': 0.2.0
       '@nuxt/schema': 3.0.0-rc.13
@@ -7678,6 +7678,10 @@ packages:
 
   /scule/0.3.2:
     resolution: {integrity: sha512-zIvPdjOH8fv8CgrPT5eqtxHQXmPNnV/vHJYffZhE43KZkvULvpCTvOt1HPlFaCZx287INL9qaqrZg34e8NgI4g==}
+
+  /scule/1.0.0:
+    resolution: {integrity: sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==}
+    dev: false
 
   /semver-diff/4.0.0:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
