@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/harlem",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
   "description": "Harlem integration for Nuxt",
   "repository": "nuxt-modules/harlem",
