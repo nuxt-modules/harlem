@@ -56,7 +56,7 @@
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "nuxt": "npm:nuxt3@latest",
-    "playwright": "^1.27.1",
+    "playwright": "^1.28.0",
     "prettier": "2.7.1",
     "release-it": "15.5.0",
     "vite": "^3.2.3",
@@ -66,5 +66,5 @@
     "@nuxtjs/harlem": "link:./",
     "@nuxt/vite-builder": "npm:@nuxt/vite-builder-edge@latest"
   },
-  "packageManager": "pnpm@7.14.2"
+  "packageManager": "pnpm@7.16.1"
 }
