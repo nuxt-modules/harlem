@@ -17,7 +17,7 @@ importers:
       '@nuxtjs/eslint-config-typescript': 12.0.0
       '@release-it/conventional-changelog': 5.1.1
       '@types/serve-static': 1.15.0
-      '@vitest/coverage-c8': 0.25.2
+      '@vitest/coverage-c8': 0.25.3
       eslint: 8.28.0
       eslint-config-prettier: 8.5.0
       knitwork: ^1.0.0
@@ -27,7 +27,7 @@ importers:
       release-it: 15.5.0
       scule: ^1.0.0
       vite: 3.2.4
-      vitest: 0.25.2
+      vitest: 0.25.3
     dependencies:
       '@harlem/core': 2.3.9
       '@harlem/plugin-devtools': 2.3.9_@harlem+core@2.3.9
@@ -42,7 +42,7 @@ importers:
       '@nuxtjs/eslint-config-typescript': 12.0.0_eslint@8.28.0
       '@release-it/conventional-changelog': 5.1.1_release-it@15.5.0
       '@types/serve-static': 1.15.0
-      '@vitest/coverage-c8': 0.25.2
+      '@vitest/coverage-c8': 0.25.3
       eslint: 8.28.0
       eslint-config-prettier: 8.5.0_eslint@8.28.0
       nuxt: 3.0.0_eslint@8.28.0
@@ -50,7 +50,7 @@ importers:
       prettier: 2.7.1
       release-it: 15.5.0
       vite: 3.2.4
-      vitest: 0.25.2
+      vitest: 0.25.3
 
   playground:
     specifiers:
@@ -1687,11 +1687,11 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /@vitest/coverage-c8/0.25.2:
-    resolution: {integrity: sha512-qKsiUJh3bjbB5Q229CbxEWCqiDBwvIrcZ9OOuQdMEC0pce3/LlTUK3+K3hd7WqAYEbbiqXfC5MVMKHZkV82PgA==}
+  /@vitest/coverage-c8/0.25.3:
+    resolution: {integrity: sha512-+tmrB3E7pZTSM+aWKzLk0FpyyaQOoRQf0594hHp+E3Kk0tiFONiEFYf7+9a1Z+C2ffU/0w6KvyBjpNPdashMrg==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.25.2
+      vitest: 0.25.3
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -8846,8 +8846,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.2:
-    resolution: {integrity: sha512-qqkzfzglEFbQY7IGkgSJkdOhoqHjwAao/OrphnHboeYHC5JzsVFoLCaB2lnAy8krhj7sbrFTVRApzpkTOeuDWQ==}
+  /vitest/0.25.3:
+    resolution: {integrity: sha512-/UzHfXIKsELZhL7OaM2xFlRF8HRZgAHtPctacvNK8H4vOcbJJAMEgbWNGSAK7Y9b1NBe5SeM7VTuz2RsTHFJJA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
