@@ -1,4 +1,6 @@
-import Harlem from '@harlem/core'
+import {
+  createVuePlugin
+} from '@harlem/core'
 import {
   createClientSSRPlugin,
   createServerSSRPlugin,
@@ -9,13 +11,13 @@ import { defineNuxtPlugin, useHead } from '#app'
 import harlemPlugins from '#build/harlem-plugins'
 
 export default defineNuxtPlugin(nuxtApp => {
-  nuxtApp.vueApp.use(Harlem, {
+  nuxtApp.vueApp.use(createVuePlugin({
     plugins: [
       ...harlemPlugins.map(p => p()),
       process.client && createClientSSRPlugin(),
       process.server && createServerSSRPlugin(),
     ].filter(Boolean),
-  })
+  }))
 
   useHead({
     script: [{ children: computed(() => getBridgingScript()) }],
