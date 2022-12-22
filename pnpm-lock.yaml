@@ -26,7 +26,7 @@ importers:
       prettier: 2.8.1
       release-it: 15.5.1
       scule: ^1.0.0
-      vite: 4.0.2
+      vite: 4.0.3
       vitest: 0.25.8
     dependencies:
       '@harlem/core': 2.3.9
@@ -49,7 +49,7 @@ importers:
       playwright: 1.29.0
       prettier: 2.8.1
       release-it: 15.5.1
-      vite: 4.0.2
+      vite: 4.0.3
       vitest: 0.25.8
 
   playground:
@@ -8223,8 +8223,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.2:
-    resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}
+  /vite/4.0.3:
+    resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8256,8 +8256,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.2_@types+node@18.11.10:
-    resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}
+  /vite/4.0.3_@types+node@18.11.10:
+    resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8325,7 +8325,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 4.0.2_@types+node@18.11.10
+      vite: 4.0.3_@types+node@18.11.10
     transitivePeerDependencies:
       - less
       - sass
