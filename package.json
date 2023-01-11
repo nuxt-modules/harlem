@@ -64,5 +64,5 @@
   "resolutions": {
     "@nuxtjs/harlem": "link:./"
   },
-  "packageManager": "pnpm@7.23.0"
+  "packageManager": "pnpm@7.24.3"
 }
