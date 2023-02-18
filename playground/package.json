@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "@nuxtjs/harlem": "latest",
-    "nuxt": "3.2.0"
+    "nuxt": "3.2.2"
   }
 }
