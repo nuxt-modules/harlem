@@ -50,7 +50,7 @@
     "@nuxt/test-utils": "3.2.2",
     "@nuxtjs/eslint-config-typescript": "12.0.0",
     "@release-it/conventional-changelog": "5.1.1",
-    "@types/serve-static": "1.15.0",
+    "@types/serve-static": "1.15.1",
     "@vitest/coverage-c8": "0.28.5",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
