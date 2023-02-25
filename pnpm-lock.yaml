@@ -16,7 +16,7 @@ importers:
       '@nuxt/test-utils': 3.2.2
       '@nuxtjs/eslint-config-typescript': 12.0.0
       '@release-it/conventional-changelog': 5.1.1
-      '@types/serve-static': 1.15.0
+      '@types/serve-static': 1.15.1
       '@vitest/coverage-c8': 0.28.5
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0
@@ -41,7 +41,7 @@ importers:
       '@nuxt/test-utils': 3.2.2
       '@nuxtjs/eslint-config-typescript': 12.0.0_eslint@8.34.0
       '@release-it/conventional-changelog': 5.1.1_release-it@15.6.0
-      '@types/serve-static': 1.15.0
+      '@types/serve-static': 1.15.1
       '@vitest/coverage-c8': 0.28.5
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
@@ -1707,10 +1707,6 @@ packages:
     resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==}
     dev: true
 
-  /@types/node/18.7.14:
-    resolution: {integrity: sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==}
-    dev: true
-
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
@@ -1723,11 +1719,11 @@ packages:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: true
 
-  /@types/serve-static/1.15.0:
-    resolution: {integrity: sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg==}
+  /@types/serve-static/1.15.1:
+    resolution: {integrity: sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 18.7.14
+      '@types/node': 18.11.10
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.45.0_mwu4ptz7joiezgbecefij47gom:
