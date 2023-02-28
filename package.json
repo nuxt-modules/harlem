@@ -52,7 +52,7 @@
     "@release-it/conventional-changelog": "5.1.1",
     "@types/serve-static": "1.15.1",
     "@vitest/coverage-c8": "0.29.1",
-    "eslint": "8.34.0",
+    "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
     "nuxt": "3.2.2",
     "playwright": "1.31.1",
