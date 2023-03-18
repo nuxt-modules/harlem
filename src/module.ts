@@ -21,14 +21,14 @@ export default defineNuxtModule<ModuleOptions>({
     name: '@nuxtjs/harlem',
     configKey: 'harlem',
     compatibility: {
-      nuxt: '^3.0.0-rc.1',
+      nuxt: '^3.0.0',
       bridge: false,
     },
   },
   defaults: nuxt => ({
     plugins: [nuxt.options.dev && '@harlem/plugin-devtools'].filter(Boolean) as string[],
   }),
-  setup (options, nuxt) {
+  setup(options, nuxt) {
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
     addTemplate({
       filename: 'harlem-plugins.mjs',
