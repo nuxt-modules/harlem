@@ -7,7 +7,8 @@ import {
   getBridgingScript,
 } from '@harlem/plugin-ssr'
 
-import { defineNuxtPlugin, useHead } from '#app'
+import { defineNuxtPlugin } from '#app'
+import { useHead } from '#imports'
 import harlemPlugins from '#build/harlem-plugins'
 
 export default defineNuxtPlugin(nuxtApp => {
