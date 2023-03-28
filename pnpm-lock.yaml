@@ -8,7 +8,7 @@ importers:
   .:
     specifiers:
       '@harlem/core': ^2.3.9
-      '@harlem/plugin-devtools': ^2.3.9
+      '@harlem/plugin-devtools': ^3.0.0
       '@harlem/plugin-ssr': ^2.3.9
       '@nuxt/kit': 3.3.2
       '@nuxt/module-builder': 0.2.1
@@ -30,7 +30,7 @@ importers:
       vitest: 0.29.7
     dependencies:
       '@harlem/core': 2.3.9
-      '@harlem/plugin-devtools': 2.3.9_@harlem+core@2.3.9
+      '@harlem/plugin-devtools': 3.1.8_@harlem+core@2.3.9
       '@harlem/plugin-ssr': 2.3.9_@harlem+core@2.3.9
       '@nuxt/kit': 3.3.2
       knitwork: 1.0.0
@@ -833,14 +833,14 @@ packages:
       '@harlem/utilities': 2.3.9
     dev: false
 
-  /@harlem/plugin-devtools/2.3.9_@harlem+core@2.3.9:
-    resolution: {integrity: sha512-z9jnzfiRoDP+Ty4p19fu9HiQ80TT9VrtpB8SCdeTUBn2JvFwtKOae0gtCkA4rCWqSkzRe5FPYzcZQO38XDGkoQ==}
+  /@harlem/plugin-devtools/3.1.8_@harlem+core@2.3.9:
+    resolution: {integrity: sha512-D8acgOXoxEBYmVzoesbdsgJ2RcX4sNmF3L6cPsvXRhvnR2Gdph+Zex9FO7MqJdwHzlR+eI88WAuovNk/xwYVyg==}
     peerDependencies:
-      '@harlem/core': ^2.0.0
+      '@harlem/core': ^3.0.0
     dependencies:
       '@harlem/core': 2.3.9
-      '@harlem/utilities': 2.3.9
-      '@vue/devtools-api': 6.2.1
+      '@harlem/utilities': 3.1.8
+      '@vue/devtools-api': 6.5.0
     transitivePeerDependencies:
       - vue
     dev: false
@@ -858,6 +858,12 @@ packages:
 
   /@harlem/utilities/2.3.9:
     resolution: {integrity: sha512-GrLhjYtiNuCe5fb1Lb52pkvwiGdO3aJokrl3+3JU6w2aNYDlkK4v1mHy4g5ZXthWDYGIskKXSU0K2OsBDrwvMg==}
+    peerDependencies:
+      vue: ^3.2.0
+    dev: false
+
+  /@harlem/utilities/3.1.8:
+    resolution: {integrity: sha512-fnQVgTgidsqxhgugmMGlRvTSNcvk4Vb3MyFgZMw1wiYwUflGhJ5AykzpbH2CmrOHoO2Od5vwZUdJRC/oH9tmDg==}
     peerDependencies:
       vue: ^3.2.0
     dev: false
@@ -2126,13 +2132,8 @@ packages:
       '@vue/shared': 3.2.47
     dev: true
 
-  /@vue/devtools-api/6.2.1:
-    resolution: {integrity: sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==}
-    dev: false
-
-  /@vue/devtools-api/6.4.5:
-    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
-    dev: true
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
 
   /@vue/reactivity-transform/3.2.47:
     resolution: {integrity: sha512-m8lGXw8rdnPVVIdIFhf0LeQ/ixyHkH5plYuS83yop5n7ggVJU+z5v0zecwEnX7fa7HNLBhh2qngJJkxpwEEmYA==}
@@ -8974,7 +8975,7 @@ packages:
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.4.5
+      '@vue/devtools-api': 6.5.0
       vue: 3.2.47
     dev: true
 
