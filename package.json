@@ -39,7 +39,7 @@
   "dependencies": {
     "@harlem/core": "^2.3.9",
     "@harlem/plugin-devtools": "^2.3.9",
-    "@harlem/plugin-ssr": "^2.3.9",
+    "@harlem/plugin-ssr": "^3.0.0",
     "@nuxt/kit": "3.3.2",
     "knitwork": "^1.0.0",
     "scule": "^1.0.0"

@@ -9,7 +9,7 @@ importers:
     specifiers:
       '@harlem/core': ^2.3.9
       '@harlem/plugin-devtools': ^2.3.9
-      '@harlem/plugin-ssr': ^2.3.9
+      '@harlem/plugin-ssr': ^3.0.0
       '@nuxt/kit': 3.3.2
       '@nuxt/module-builder': 0.2.1
       '@nuxt/schema': 3.3.2
@@ -31,7 +31,7 @@ importers:
     dependencies:
       '@harlem/core': 2.3.9
       '@harlem/plugin-devtools': 2.3.9_@harlem+core@2.3.9
-      '@harlem/plugin-ssr': 2.3.9_@harlem+core@2.3.9
+      '@harlem/plugin-ssr': 3.1.8_@harlem+core@2.3.9
       '@nuxt/kit': 3.3.2
       knitwork: 1.0.0
       scule: 1.0.0
@@ -845,19 +845,25 @@ packages:
       - vue
     dev: false
 
-  /@harlem/plugin-ssr/2.3.9_@harlem+core@2.3.9:
-    resolution: {integrity: sha512-q26oeo0ORFmiVC+JSqUyDQh0MeDsIjpdAjALkpY7nkKcN4YWEi+ro0vjkr4HivZ0BamlKc1tRrR94+l6pPzDDg==}
+  /@harlem/plugin-ssr/3.1.8_@harlem+core@2.3.9:
+    resolution: {integrity: sha512-hOSlzBdC+TRfyTI9nNu5d7FdkHtSxgBmPjGBouHRwMItVPkuuBtM8cGzYPiKIx8An7zg2aGHCY0ikOlaWRTsSg==}
     peerDependencies:
-      '@harlem/core': ^2.0.0
+      '@harlem/core': ^3.0.0
     dependencies:
       '@harlem/core': 2.3.9
-      '@harlem/utilities': 2.3.9
+      '@harlem/utilities': 3.1.8
     transitivePeerDependencies:
       - vue
     dev: false
 
   /@harlem/utilities/2.3.9:
     resolution: {integrity: sha512-GrLhjYtiNuCe5fb1Lb52pkvwiGdO3aJokrl3+3JU6w2aNYDlkK4v1mHy4g5ZXthWDYGIskKXSU0K2OsBDrwvMg==}
+    peerDependencies:
+      vue: ^3.2.0
+    dev: false
+
+  /@harlem/utilities/3.1.8:
+    resolution: {integrity: sha512-fnQVgTgidsqxhgugmMGlRvTSNcvk4Vb3MyFgZMw1wiYwUflGhJ5AykzpbH2CmrOHoO2Od5vwZUdJRC/oH9tmDg==}
     peerDependencies:
       vue: ^3.2.0
     dev: false
