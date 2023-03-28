@@ -37,9 +37,9 @@
     "test:e2e": "vitest run test/e2e"
   },
   "dependencies": {
-    "@harlem/core": "^2.3.9",
-    "@harlem/plugin-devtools": "^2.3.9",
-    "@harlem/plugin-ssr": "^2.3.9",
+    "@harlem/core": "^3.1.8",
+    "@harlem/plugin-devtools": "^3.1.8",
+    "@harlem/plugin-ssr": "^3.1.8",
     "@nuxt/kit": "3.3.2",
     "knitwork": "^1.0.0",
     "scule": "^1.0.0"
@@ -53,10 +53,10 @@
     "@types/serve-static": "1.15.1",
     "@vitest/coverage-c8": "0.29.7",
     "eslint": "8.36.0",
-    "eslint-config-prettier": "8.7.0",
+    "eslint-config-prettier": "8.8.0",
     "nuxt": "3.3.2",
     "playwright": "1.32.1",
-    "prettier": "2.8.4",
+    "prettier": "2.8.7",
     "release-it": "15.9.3",
     "vite": "4.2.1",
     "vitest": "0.29.7"
