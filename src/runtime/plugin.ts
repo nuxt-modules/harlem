@@ -1,11 +1,5 @@
-import {
-  createVuePlugin
-} from '@harlem/core'
-import {
-  createClientSSRPlugin,
-  createServerSSRPlugin,
-  getBridgingScript,
-} from '@harlem/plugin-ssr'
+import { createVuePlugin } from '@harlem/core'
+import { createClientSSRPlugin, createServerSSRPlugin, getBridgingScript } from '@harlem/plugin-ssr'
 
 import { defineNuxtPlugin } from '#app'
 import { useHead } from '#imports'
@@ -21,6 +15,6 @@ export default defineNuxtPlugin(nuxtApp => {
   }))
 
   useHead({
-    script: [{ children: computed(() => getBridgingScript()) }],
+    script: [{ children: () => getBridgingScript() }],
   })
 })
