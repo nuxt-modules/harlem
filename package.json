@@ -41,7 +41,7 @@
     "@harlem/core": "^3.1.8",
     "@harlem/plugin-devtools": "^3.1.8",
     "@harlem/plugin-ssr": "^3.1.8",
-    "@nuxt/kit": "3.4.2",
+    "@nuxt/kit": "^3.4.2",
     "knitwork": "^1.0.0",
     "scule": "^1.0.0"
   },
