@@ -27,8 +27,8 @@ importers:
         version: 1.0.0
     devDependencies:
       '@nuxt/module-builder':
-        specifier: 0.3.0
-        version: 0.3.0
+        specifier: 0.3.1
+        version: 0.3.1
       '@nuxt/schema':
         specifier: 3.4.2
         version: 3.4.2(rollup@3.21.0)
@@ -802,11 +802,11 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/module-builder@0.3.0:
-    resolution: {integrity: sha512-ocXA3pY5T3YKBLNE/Epgnh5cIIrad6vGP31gT7RorpFa7mtIqMxIPX/Z7RSQ7xnTvZW9sA1AxadjfhwHMEBhKg==}
+  /@nuxt/module-builder@0.3.1:
+    resolution: {integrity: sha512-qH/F3SgIE4mobpAfJ6D9c6IqIrhEsiPM+aSdckyJgRGUbyU8urKqPR0d3DkGanN9mWy5Nk6Fwqon6jNKz97SRA==}
     hasBin: true
     dependencies:
-      consola: 3.0.2
+      consola: 3.1.0
       mlly: 1.2.0
       mri: 1.2.0
       pathe: 1.1.0
@@ -2185,10 +2185,6 @@ packages:
       well-known-symbols: 2.0.0
     dev: true
 
-  /consola@3.0.2:
-    resolution: {integrity: sha512-o/Wau2FmZKiQgyp3c3IULgN6J5yc0lwYMnoyiZdEpdGxKGBtt2ACbkulBZ6BUsHy1HlSJqoP4YOyPIJLgRJyKQ==}
-    dev: true
-
   /consola@3.1.0:
     resolution: {integrity: sha512-rrrJE6rP0qzl/Srg+C9x/AE5Kxfux7reVm1Wh0wCjuXvih6DqZgqDZe8auTD28fzJ9TF0mHlSDrPpWlujQRo1Q==}
 
@@ -2875,7 +2871,7 @@ packages:
       eslint-utils: 3.0.0(eslint@8.39.0)
       esquery: 1.5.0
       indent-string: 4.0.0
-      is-builtin-module: 3.2.0
+      is-builtin-module: 3.2.1
       lodash: 4.17.21
       pluralize: 8.0.0
       read-pkg-up: 7.0.1
@@ -3729,13 +3725,6 @@ packages:
     dependencies:
       call-bind: 1.0.2
       has-tostringtag: 1.0.0
-    dev: true
-
-  /is-builtin-module@3.2.0:
-    resolution: {integrity: sha512-phDA4oSGt7vl1n5tJvTWooWWAsXLY+2xCnxNqvKhGEzujg+A43wPlPOyDg3C8XQHN+6k/JTQWJ/j0dQh/qr+Hw==}
-    engines: {node: '>=6'}
-    dependencies:
-      builtin-modules: 3.3.0
     dev: true
 
   /is-builtin-module@3.2.1:
@@ -6087,7 +6076,7 @@ packages:
       '@rollup/plugin-replace': 5.0.2(rollup@3.21.0)
       '@rollup/pluginutils': 5.0.2(rollup@3.21.0)
       chalk: 5.2.0
-      consola: 3.0.2
+      consola: 3.1.0
       defu: 6.1.2
       esbuild: 0.17.17
       globby: 13.1.4
