@@ -62,7 +62,8 @@
     "vitest": "0.33.0"
   },
   "resolutions": {
-    "@nuxtjs/harlem": "link:./"
+    "@nuxtjs/harlem": "link:./",
+    "@nuxt/kit": "^3.6.0"
   },
   "packageManager": "pnpm@8.6.6"
 }

@@ -6,6 +6,7 @@ settings:
 
 overrides:
   '@nuxtjs/harlem': link:./
+  '@nuxt/kit': ^3.6.0
 
 importers:
 
