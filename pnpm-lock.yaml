@@ -6,7 +6,7 @@ settings:
 
 overrides:
   '@nuxtjs/harlem': link:./
-  '@nuxt/kit': ^3.6.0
+  '@nuxt/kit': 3.6.0
 
 importers:
 
@@ -22,7 +22,7 @@ importers:
         specifier: ^3.1.8
         version: 3.1.8(@harlem/core@3.1.8)(vue@3.3.4)
       '@nuxt/kit':
-        specifier: ^3.6.0
+        specifier: 3.6.0
         version: 3.6.0(rollup@3.25.1)
       knitwork:
         specifier: ^1.0.0
