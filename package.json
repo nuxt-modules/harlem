@@ -58,7 +58,7 @@
     "nuxt": "3.6.3",
     "playwright": "1.36.1",
     "prettier": "3.0.0",
-    "vite": "4.4.4",
+    "vite": "4.4.6",
     "vitest": "0.33.0"
   },
   "resolutions": {
