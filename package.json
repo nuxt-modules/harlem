@@ -56,7 +56,7 @@
     "eslint": "8.47.0",
     "eslint-config-prettier": "9.0.0",
     "nuxt": "3.6.5",
-    "playwright": "1.37.0",
+    "playwright": "1.37.1",
     "prettier": "3.0.2",
     "vite": "4.4.9",
     "vitest": "0.34.2"
