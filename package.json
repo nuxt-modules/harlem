@@ -33,7 +33,7 @@
     "prepack": "pnpm build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxt-module-build prepare && nuxi prepare playground",
     "release": "bumpp && npm publish && git push --follow-tags",
     "test:e2e": "vitest run test/e2e"
   },
