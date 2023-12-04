@@ -63,7 +63,7 @@
   },
   "resolutions": {
     "@nuxtjs/harlem": "link:./",
-    "@nuxt/kit": "3.6.5"
+    "@nuxt/schema": "3.6.5"
   },
   "packageManager": "pnpm@8.6.12"
 }
