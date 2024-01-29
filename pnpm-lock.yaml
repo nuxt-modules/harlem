@@ -62,8 +62,8 @@ importers:
         specifier: 3.8.2
         version: 3.8.2(eslint@8.56.0)(rollup@3.29.4)(typescript@5.2.2)(vite@4.5.0)
       playwright:
-        specifier: 1.40.1
-        version: 1.40.1
+        specifier: 1.41.1
+        version: 1.41.1
       prettier:
         specifier: 3.1.1
         version: 3.1.1
@@ -6311,18 +6311,18 @@ packages:
       mlly: 1.4.2
       pathe: 1.1.1
 
-  /playwright-core@1.40.1:
-    resolution: {integrity: sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==}
+  /playwright-core@1.41.1:
+    resolution: {integrity: sha512-/KPO5DzXSMlxSX77wy+HihKGOunh3hqndhqeo/nMxfigiKzogn8kfL0ZBDu0L1RKgan5XHCPmn6zXd2NUJgjhg==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
 
-  /playwright@1.40.1:
-    resolution: {integrity: sha512-2eHI7IioIpQ0bS1Ovg/HszsN/XKNwEG1kbzSDDmADpclKc7CyqkHw7Mg2JCz/bbCxg25QUPcjksoMW7JcIFQmw==}
+  /playwright@1.41.1:
+    resolution: {integrity: sha512-gdZAWG97oUnbBdRL3GuBvX3nDDmUOuqzV/D24dytqlKt+eI5KbwusluZRGljx1YoJKZ2NRPaeWiFTeGZO7SosQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright-core: 1.40.1
+      playwright-core: 1.41.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
