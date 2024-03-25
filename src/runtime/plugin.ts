@@ -10,8 +10,8 @@ export default defineNuxtPlugin(nuxtApp => {
     createVuePlugin({
       plugins: [
         ...harlemPlugins.map(p => p()),
-        process.client && createClientSSRPlugin(),
-        process.server && createServerSSRPlugin(),
+        import.meta.client && createClientSSRPlugin(),
+        import.meta.server && createServerSSRPlugin(),
       ].filter(Boolean),
     })
   )
