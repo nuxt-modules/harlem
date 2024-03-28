@@ -47,22 +47,22 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "0.5.5",
-    "@nuxt/schema": "3.10.3",
-    "@nuxt/test-utils": "3.11.0",
+    "@nuxt/schema": "3.11.1",
+    "@nuxt/test-utils": "3.12.0",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
     "@types/serve-static": "1.15.5",
     "@vitest/coverage-v8": "1.4.0",
     "bumpp": "9.4.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
-    "nuxt": "3.10.3",
+    "nuxt": "3.11.1",
     "playwright": "1.42.1",
     "prettier": "3.2.5",
     "vitest": "1.4.0"
   },
   "resolutions": {
     "@nuxtjs/harlem": "link:./",
-    "@nuxt/schema": "3.10.3"
+    "@nuxt/schema": "3.11.1"
   },
   "packageManager": "pnpm@8.15.5"
 }
