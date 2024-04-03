@@ -25,7 +25,7 @@ Harlem is a simple, unopinionated, lightweight and extensible state management s
 1. Add `@nuxtjs/harlem` dependency to your project
 
 ```bash
-yarn add @nuxtjs/harlem # or npm install @nuxtjs/harlem
+npx nuxi@latest module add harlem
 ```
 
 2. Add `@nuxtjs/harlem` to the `modules` section of `nuxt.config.ts`
