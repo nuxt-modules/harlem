@@ -1,5 +1,5 @@
-import { resolve } from 'path'
-import { fileURLToPath } from 'url'
+import { resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { defineNuxtModule, addPlugin, addTemplate, addImports } from '@nuxt/kit'
 import { pascalCase } from 'scule'
 import { genArrayFromRaw, genImport } from 'knitwork'
@@ -36,7 +36,7 @@ export default defineNuxtModule<ModuleOptions>({
         [
           ...options.plugins.map(p => genImport(p, pascalCase(p).replace(/[^\w]/g, '_'))),
           `export default ${genArrayFromRaw(
-            options.plugins.map(p => pascalCase(p).replace(/[^\w]/g, '_'))
+            options.plugins.map(p => pascalCase(p).replace(/[^\w]/g, '_')),
           )}`,
         ].join('\n'),
     })
