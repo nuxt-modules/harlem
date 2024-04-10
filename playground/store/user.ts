@@ -5,7 +5,7 @@ const STATE = {
 
 export const { state, getter, mutation, ...store } = createStore('user', STATE)
 
-export const fullName = getter('fullName', state => {
+export const fullName = getter('fullName', (state) => {
   return `${state.firstName} ${state.lastName}`
 })
 

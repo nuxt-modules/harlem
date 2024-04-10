@@ -5,7 +5,7 @@ import { defineNuxtPlugin } from '#app'
 import { useHead } from '#imports'
 import harlemPlugins from '#build/harlem-plugins'
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(
     createVuePlugin({
       plugins: [
@@ -13,7 +13,7 @@ export default defineNuxtPlugin(nuxtApp => {
         import.meta.client && createClientSSRPlugin(),
         import.meta.server && createServerSSRPlugin(),
       ].filter(Boolean),
-    })
+    }),
   )
 
   useHead({

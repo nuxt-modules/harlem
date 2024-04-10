@@ -1,8 +1,16 @@
 <template>
   <div class="app">
     <h1>Hello {{ fullName }}</h1>
-    <input v-model="firstName" type="text" placeholder="First name" />
-    <input v-model="lastName" type="text" placeholder="Last name" />
+    <input
+      v-model="firstName"
+      type="text"
+      placeholder="First name"
+    >
+    <input
+      v-model="lastName"
+      type="text"
+      placeholder="Last name"
+    >
   </div>
 </template>
 
