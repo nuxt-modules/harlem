@@ -57,7 +57,7 @@
     "playwright": "1.42.1",
     "prettier": "3.2.5",
     "vitest": "1.4.0",
-    "@nuxt/eslint-config": "0.3.5"
+    "@nuxt/eslint-config": "0.3.8"
   },
   "resolutions": {
     "@nuxtjs/harlem": "link:./",
