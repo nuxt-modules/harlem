@@ -3,7 +3,10 @@
   "version": "1.3.1",
   "license": "MIT",
   "description": "Harlem integration for Nuxt",
-  "repository": "nuxt-modules/harlem",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt-modules/harlem.git"
+  },
   "keywords": [
     "nuxt",
     "module",
