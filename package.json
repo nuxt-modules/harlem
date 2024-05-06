@@ -55,7 +55,7 @@
     "@types/serve-static": "1.15.7",
     "@vitest/coverage-v8": "1.4.0",
     "bumpp": "9.4.0",
-    "eslint": "9.0.0",
+    "eslint": "9.2.0",
     "nuxt": "3.10.3",
     "playwright": "1.42.1",
     "prettier": "3.2.5",
