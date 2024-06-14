@@ -21,7 +21,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: '@nuxtjs/harlem',
     configKey: 'harlem',
     compatibility: {
-      nuxt: '^3.0.0',
+      nuxt: '>=3.0.0',
       bridge: false,
     },
   },
