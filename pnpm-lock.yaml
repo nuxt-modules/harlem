@@ -42,13 +42,13 @@ importers:
         version: 3.10.3(rollup@3.29.4)
       '@nuxt/test-utils':
         specifier: 3.11.0
-        version: 3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
+        version: 3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
       '@types/serve-static':
         specifier: 1.15.7
         version: 1.15.7
       '@vitest/coverage-v8':
-        specifier: 1.4.0
-        version: 1.4.0(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))
+        specifier: 1.6.0
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))
       bumpp:
         specifier: 9.4.1
         version: 9.4.1
@@ -65,8 +65,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       vitest:
-        specifier: 1.4.0
-        version: 1.4.0(@types/node@20.12.2)(terser@5.30.0)
+        specifier: 1.6.0
+        version: 1.6.0(@types/node@20.12.2)(terser@5.30.0)
 
   playground:
     devDependencies:
@@ -1176,9 +1176,6 @@ packages:
   '@types/http-proxy@1.17.14':
     resolution: {integrity: sha512-SSrD0c1OQzlFX7pGu1eXxSEjemej64aaNPRhhVYUGqXh0BtldAAx37MG8btcumvpgKyZp1F5Gn3JkktdxiFv6w==}
 
-  '@types/istanbul-lib-coverage@2.0.6':
-    resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
-
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
@@ -1413,25 +1410,25 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
 
-  '@vitest/coverage-v8@1.4.0':
-    resolution: {integrity: sha512-4hDGyH1SvKpgZnIByr9LhGgCEuF9DKM34IBLCC/fVfy24Z3+PZ+Ii9hsVBsHvY1umM1aGPEjceRkzxCfcQ10wg==}
+  '@vitest/coverage-v8@1.6.0':
+    resolution: {integrity: sha512-KvapcbMY/8GYIG0rlwwOKCVNRc0OL20rrhFkg/CHNzncV03TE2XWvO5w9uZYoxNiMEBacAJt3unSOiZ7svePew==}
     peerDependencies:
-      vitest: 1.4.0
+      vitest: 1.6.0
 
-  '@vitest/expect@1.4.0':
-    resolution: {integrity: sha512-Jths0sWCJZ8BxjKe+p+eKsoqev1/T8lYcrjavEaz8auEJ4jAVY0GwW3JKmdVU4mmNPLPHixh4GNXP7GFtAiDHA==}
+  '@vitest/expect@1.6.0':
+    resolution: {integrity: sha512-ixEvFVQjycy/oNgHjqsL6AZCDduC+tflRluaHIzKIsdbzkLn2U/iBnVeJwB6HsIjQBdfMR8Z0tRxKUsvFJEeWQ==}
 
-  '@vitest/runner@1.4.0':
-    resolution: {integrity: sha512-EDYVSmesqlQ4RD2VvWo3hQgTJ7ZrFQ2VSJdfiJiArkCerDAGeyF1i6dHkmySqk573jLp6d/cfqCN+7wUB5tLgg==}
+  '@vitest/runner@1.6.0':
+    resolution: {integrity: sha512-P4xgwPjwesuBiHisAVz/LSSZtDjOTPYZVmNAnpHHSR6ONrf8eCJOFRvUwdHn30F5M1fxhqtl7QZQUk2dprIXAg==}
 
-  '@vitest/snapshot@1.4.0':
-    resolution: {integrity: sha512-saAFnt5pPIA5qDGxOHxJ/XxhMFKkUSBJmVt5VgDsAqPTX6JP326r5C/c9UuCMPoXNzuudTPsYDZCoJ5ilpqG2A==}
+  '@vitest/snapshot@1.6.0':
+    resolution: {integrity: sha512-+Hx43f8Chus+DCmygqqfetcAZrDJwvTj0ymqjQq4CvmpKFSTVteEOBzCusu1x2tt4OJcvBflyHUE0DZSLgEMtQ==}
 
-  '@vitest/spy@1.4.0':
-    resolution: {integrity: sha512-Ywau/Qs1DzM/8Uc+yA77CwSegizMlcgTJuYGAi0jujOteJOUf1ujunHThYo243KG9nAyWT3L9ifPYZ5+As/+6Q==}
+  '@vitest/spy@1.6.0':
+    resolution: {integrity: sha512-leUTap6B/cqi/bQkXUu6bQV5TZPx7pmMBKBQiI0rJA8c3pB56ZsaTbREnF7CJfmvAS4V2cXIBAh/3rVwrrCYgw==}
 
-  '@vitest/utils@1.4.0':
-    resolution: {integrity: sha512-mx3Yd1/6e2Vt/PUC98DcqTirtfxUyAZ32uK82r8rZzbtBeBo+nqgnjx/LvqQdWsrvNtm14VmurNgcf4nqY5gJg==}
+  '@vitest/utils@1.6.0':
+    resolution: {integrity: sha512-21cPiuGMoMZwiOHa2i4LXkMkMkCGzA+MVFV70jRwHo95dL4x/ts5GZhML1QWuy7yfp3WzK3lRvZi3JnXTYqrBw==}
 
   '@vue-macros/common@1.10.2':
     resolution: {integrity: sha512-WC66NPVh2mJWqm4L0l/u/cOqm4pNOIwVdMGnDYAH2rHcOWy5x68GkhpkYTBu1+xwCSeHWOQn1TCGGbD+98fFpA==}
@@ -4553,10 +4550,6 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  v8-to-istanbul@9.2.0:
-    resolution: {integrity: sha512-/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==}
-    engines: {node: '>=10.12.0'}
-
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
@@ -4571,6 +4564,11 @@ packages:
 
   vite-node@1.4.0:
     resolution: {integrity: sha512-VZDAseqjrHgNd4Kh8icYHWzTKSCZMhia7GyHfhtzLW33fZlG9SwsB6CEhgyVOWkJfJ2pFLrp/Gj1FSfAiqH9Lw==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
+
+  vite-node@1.6.0:
+    resolution: {integrity: sha512-de6HJgzC+TFzOu0NTC4RAIsyf/DY/ibWDYQUcuEA84EMHhcefTUGkjFHKKEJhQN4A+6I0u++kr3l36ZF2d7XRw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
@@ -4651,15 +4649,15 @@ packages:
   vitest-environment-nuxt@1.0.0:
     resolution: {integrity: sha512-AWMO9h4HdbaFdPWZw34gALFI8gbBiOpvfbyeZwHIPfh4kWg/TwElYHvYMQ61WPUlCGaS5LebfHkaI0WPyb//Iw==}
 
-  vitest@1.4.0:
-    resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
+  vitest@1.6.0:
+    resolution: {integrity: sha512-H5r/dN06swuFnzNFhq/dnz37bPXnq8xB2xB5JOVk8K09rUtoeNN+LHWkoQ0A/i3hvbUKKcCei9KpbxqHMLhLLA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@types/node': ^18.0.0 || >=20.0.0
-      '@vitest/browser': 1.4.0
-      '@vitest/ui': 1.4.0
+      '@vitest/browser': 1.6.0
+      '@vitest/ui': 1.6.0
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
@@ -5442,7 +5440,7 @@ snapshots:
 
   '@npmcli/fs@3.1.0':
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
 
   '@npmcli/git@5.0.4':
     dependencies:
@@ -5452,7 +5450,7 @@ snapshots:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.6.0
+      semver: 7.6.2
       which: 4.0.0
     transitivePeerDependencies:
       - bluebird
@@ -5472,7 +5470,7 @@ snapshots:
       json-parse-even-better-errors: 3.0.1
       normalize-package-data: 6.0.0
       proc-log: 3.0.0
-      semver: 7.6.0
+      semver: 7.6.2
     transitivePeerDependencies:
       - bluebird
 
@@ -5884,7 +5882,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/test-utils@3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))':
+  '@nuxt/test-utils@3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))':
     dependencies:
       '@nuxt/kit': 3.11.1(rollup@3.29.4)
       '@nuxt/schema': 3.10.3(rollup@3.29.4)
@@ -5910,12 +5908,12 @@ snapshots:
       unenv: 1.9.0
       unplugin: 1.10.1
       vite: 5.2.7(@types/node@20.12.2)(terser@5.30.0)
-      vitest-environment-nuxt: 1.0.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
+      vitest-environment-nuxt: 1.0.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
       vue: 3.4.21(typescript@5.4.3)
       vue-router: 4.3.0(vue@3.4.21(typescript@5.4.3))
     optionalDependencies:
       playwright-core: 1.45.1
-      vitest: 1.4.0(@types/node@20.12.2)(terser@5.30.0)
+      vitest: 1.6.0(@types/node@20.12.2)(terser@5.30.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6376,8 +6374,6 @@ snapshots:
     dependencies:
       '@types/node': 20.12.2
 
-  '@types/istanbul-lib-coverage@2.0.6': {}
-
   '@types/json-schema@7.0.15': {}
 
   '@types/mime@1.3.5': {}
@@ -6784,7 +6780,7 @@ snapshots:
       vite: 5.2.7(@types/node@20.12.2)(terser@5.30.0)
       vue: 3.4.21(typescript@5.4.3)
 
-  '@vitest/coverage-v8@1.4.0(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -6799,34 +6795,33 @@ snapshots:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      v8-to-istanbul: 9.2.0
-      vitest: 1.4.0(@types/node@20.12.2)(terser@5.30.0)
+      vitest: 1.6.0(@types/node@20.12.2)(terser@5.30.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/expect@1.4.0':
+  '@vitest/expect@1.6.0':
     dependencies:
-      '@vitest/spy': 1.4.0
-      '@vitest/utils': 1.4.0
+      '@vitest/spy': 1.6.0
+      '@vitest/utils': 1.6.0
       chai: 4.4.1
 
-  '@vitest/runner@1.4.0':
+  '@vitest/runner@1.6.0':
     dependencies:
-      '@vitest/utils': 1.4.0
+      '@vitest/utils': 1.6.0
       p-limit: 5.0.0
       pathe: 1.1.2
 
-  '@vitest/snapshot@1.4.0':
+  '@vitest/snapshot@1.6.0':
     dependencies:
       magic-string: 0.30.8
       pathe: 1.1.2
       pretty-format: 29.7.0
 
-  '@vitest/spy@1.4.0':
+  '@vitest/spy@1.6.0':
     dependencies:
       tinyspy: 2.2.1
 
-  '@vitest/utils@1.4.0':
+  '@vitest/utils@1.6.0':
     dependencies:
       diff-sequences: 29.6.3
       estree-walker: 3.0.3
@@ -7326,7 +7321,7 @@ snapshots:
 
   builtins@5.0.1:
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
 
   bumpp@9.4.1:
     dependencies:
@@ -8721,7 +8716,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
 
   make-fetch-happen@13.0.0:
     dependencies:
@@ -8981,7 +8976,7 @@ snapshots:
       make-fetch-happen: 13.0.0
       nopt: 7.2.0
       proc-log: 3.0.0
-      semver: 7.6.0
+      semver: 7.6.2
       tar: 6.2.1
       which: 4.0.0
     transitivePeerDependencies:
@@ -9008,7 +9003,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.13.1
-      semver: 7.6.0
+      semver: 7.6.2
       validate-npm-package-license: 3.0.4
 
   normalize-path@3.0.0: {}
@@ -9021,7 +9016,7 @@ snapshots:
 
   npm-install-checks@6.3.0:
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
 
   npm-normalize-package-bin@3.0.1: {}
 
@@ -9029,7 +9024,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.1
       proc-log: 3.0.0
-      semver: 7.6.0
+      semver: 7.6.2
       validate-npm-package-name: 5.0.0
 
   npm-packlist@8.0.2:
@@ -9041,7 +9036,7 @@ snapshots:
       npm-install-checks: 6.3.0
       npm-normalize-package-bin: 3.0.1
       npm-package-arg: 11.0.1
-      semver: 7.6.0
+      semver: 7.6.2
 
   npm-registry-fetch@16.1.0:
     dependencies:
@@ -10675,12 +10670,6 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  v8-to-istanbul@9.2.0:
-    dependencies:
-      '@jridgewell/trace-mapping': 0.3.25
-      '@types/istanbul-lib-coverage': 2.0.6
-      convert-source-map: 2.0.0
-
   validate-npm-package-license@3.0.4:
     dependencies:
       spdx-correct: 3.2.0
@@ -10695,6 +10684,23 @@ snapshots:
       vite: 5.2.7(@types/node@20.12.2)(terser@5.30.0)
 
   vite-node@1.4.0(@types/node@20.12.2)(terser@5.30.0):
+    dependencies:
+      cac: 6.7.14
+      debug: 4.3.4
+      pathe: 1.1.2
+      picocolors: 1.0.0
+      vite: 5.2.7(@types/node@20.12.2)(terser@5.30.0)
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+
+  vite-node@1.6.0(@types/node@20.12.2)(terser@5.30.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
@@ -10795,9 +10801,9 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.30.0
 
-  vitest-environment-nuxt@1.0.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3)):
+  vitest-environment-nuxt@1.0.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3)):
     dependencies:
-      '@nuxt/test-utils': 3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
+      '@nuxt/test-utils': 3.11.0(h3@1.11.1)(playwright-core@1.45.1)(rollup@3.29.4)(vite@5.2.7(@types/node@20.12.2)(terser@5.30.0))(vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.3.0(vue@3.4.21(typescript@5.4.3)))(vue@3.4.21(typescript@5.4.3))
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -10815,13 +10821,13 @@ snapshots:
       - vue
       - vue-router
 
-  vitest@1.4.0(@types/node@20.12.2)(terser@5.30.0):
+  vitest@1.6.0(@types/node@20.12.2)(terser@5.30.0):
     dependencies:
-      '@vitest/expect': 1.4.0
-      '@vitest/runner': 1.4.0
-      '@vitest/snapshot': 1.4.0
-      '@vitest/spy': 1.4.0
-      '@vitest/utils': 1.4.0
+      '@vitest/expect': 1.6.0
+      '@vitest/runner': 1.6.0
+      '@vitest/snapshot': 1.6.0
+      '@vitest/spy': 1.6.0
+      '@vitest/utils': 1.6.0
       acorn-walk: 8.3.2
       chai: 4.4.1
       debug: 4.3.4
@@ -10835,7 +10841,7 @@ snapshots:
       tinybench: 2.6.0
       tinypool: 0.8.3
       vite: 5.2.7(@types/node@20.12.2)(terser@5.30.0)
-      vite-node: 1.4.0(@types/node@20.12.2)(terser@5.30.0)
+      vite-node: 1.6.0(@types/node@20.12.2)(terser@5.30.0)
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@types/node': 20.12.2
