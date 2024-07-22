@@ -57,7 +57,7 @@
     "bumpp": "9.4.1",
     "eslint": "9.7.0",
     "nuxt": "3.10.3",
-    "playwright": "1.45.2",
+    "playwright": "1.45.3",
     "prettier": "3.3.3",
     "vitest": "2.0.3",
     "@nuxt/eslint-config": "0.3.13"
