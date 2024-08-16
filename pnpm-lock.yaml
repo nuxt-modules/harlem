@@ -42,7 +42,7 @@ importers:
         version: 3.12.4(rollup@3.29.4)
       '@nuxt/test-utils':
         specifier: 3.14.0
-        version: 3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.0)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
+        version: 3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.1)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
       '@types/serve-static':
         specifier: 1.15.7
         version: 1.15.7
@@ -59,8 +59,8 @@ importers:
         specifier: 3.12.4
         version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@20.12.2)(encoding@0.1.13)(eslint@9.9.0(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.3)(rollup@3.29.4)(terser@5.30.0)(typescript@5.4.3)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))
       playwright:
-        specifier: 1.46.0
-        version: 1.46.0
+        specifier: 1.46.1
+        version: 1.46.1
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -3249,13 +3249,13 @@ packages:
   pkg-types@1.1.3:
     resolution: {integrity: sha512-+JrgthZG6m3ckicaOB74TwQ+tBWsFl3qVQg7mN8ulwSOElJ7gBhKzj2VkCPnZ4NlF6kEquYU+RIYNVAvzd54UA==}
 
-  playwright-core@1.46.0:
-    resolution: {integrity: sha512-9Y/d5UIwuJk8t3+lhmMSAJyNP1BUC/DqP3cQJDQQL/oWqAiuPTLgy7Q5dzglmTLwcBRdetzgNM/gni7ckfTr6A==}
+  playwright-core@1.46.1:
+    resolution: {integrity: sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.46.0:
-    resolution: {integrity: sha512-XYJ5WvfefWONh1uPAUAi0H2xXV5S3vrtcnXe6uAOgdGi3aSpqOSXX08IAjXW34xitfuOJsvXU5anXZxPSEQiJw==}
+  playwright@1.46.1:
+    resolution: {integrity: sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4185,7 +4185,7 @@ packages:
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
-      '@types/node': '*'
+      '@types/node': ^18.0.0 || >=20.0.0
       '@vitest/browser': 2.0.5
       '@vitest/ui': 2.0.5
       happy-dom: '*'
@@ -5327,7 +5327,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/test-utils@3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.0)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))':
+  '@nuxt/test-utils@3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.1)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))':
     dependencies:
       '@nuxt/kit': 3.12.4(magicast@0.3.4)(rollup@3.29.4)
       '@nuxt/schema': 3.12.4(rollup@3.29.4)
@@ -5354,11 +5354,11 @@ snapshots:
       unenv: 1.10.0
       unplugin: 1.12.0
       vite: 5.3.5(@types/node@20.12.2)(terser@5.30.0)
-      vitest-environment-nuxt: 1.0.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.0)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
+      vitest-environment-nuxt: 1.0.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.1)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
       vue: 3.4.35(typescript@5.4.3)
       vue-router: 4.4.2(vue@3.4.35(typescript@5.4.3))
     optionalDependencies:
-      playwright-core: 1.46.0
+      playwright-core: 1.46.1
       vitest: 2.0.5(@types/node@20.12.2)(terser@5.30.0)
     transitivePeerDependencies:
       - magicast
@@ -8239,11 +8239,11 @@ snapshots:
       mlly: 1.7.1
       pathe: 1.1.2
 
-  playwright-core@1.46.0: {}
+  playwright-core@1.46.1: {}
 
-  playwright@1.46.0:
+  playwright@1.46.1:
     dependencies:
-      playwright-core: 1.46.0
+      playwright-core: 1.46.1
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -9239,9 +9239,9 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.30.0
 
-  vitest-environment-nuxt@1.0.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.0)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3)):
+  vitest-environment-nuxt@1.0.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.1)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3)):
     dependencies:
-      '@nuxt/test-utils': 3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.0)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
+      '@nuxt/test-utils': 3.14.0(h3@1.12.0)(magicast@0.3.4)(nitropack@2.9.7(encoding@0.1.13)(magicast@0.3.4))(playwright-core@1.46.1)(rollup@3.29.4)(vite@5.3.5(@types/node@20.12.2)(terser@5.30.0))(vitest@2.0.5(@types/node@20.12.2)(terser@5.30.0))(vue-router@4.4.2(vue@3.4.35(typescript@5.4.3)))(vue@3.4.35(typescript@5.4.3))
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
