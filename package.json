@@ -58,7 +58,7 @@
     "bumpp": "9.5.1",
     "eslint": "9.9.0",
     "nuxt": "3.12.4",
-    "playwright": "1.46.0",
+    "playwright": "1.46.1",
     "prettier": "3.3.3",
     "vitest": "2.0.5"
   },
