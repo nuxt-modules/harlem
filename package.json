@@ -58,7 +58,7 @@
     "bumpp": "9.5.2",
     "eslint": "9.10.0",
     "nuxt": "3.12.4",
-    "playwright": "1.47.1",
+    "playwright": "1.47.2",
     "prettier": "3.3.3",
     "vitest": "2.1.1"
   },
@@ -66,5 +66,5 @@
     "@nuxt/schema": "3.12.4",
     "@nuxtjs/harlem": "link:./"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.11.0"
 }
