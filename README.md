@@ -109,7 +109,7 @@ For more info and examples, check out the [Harlem docs](https://harlemjs.com/) a
 [npm-version-href]: https://npmjs.com/package/@nuxtjs/harlem
 [npm-downloads-src]: https://img.shields.io/npm/dm/@nuxtjs/harlem.svg
 [npm-downloads-href]: https://npm.chart.dev/@nuxtjs/harlem
-[github-actions-ci-src]: https:
+[github-actions-ci-src]: https://github.com/nuxt-modules/harlem/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/nuxt-modules/harlem/actions?query=workflow%3Aci
 [codecov-src]: https://img.shields.io/codecov/c/github/nuxt-modules/harlem.svg
 [codecov-href]: https://codecov.io/gh/nuxt-modules/harlem
