@@ -51,19 +51,19 @@
   "devDependencies": {
     "@nuxt/eslint-config": "0.7.1",
     "@nuxt/module-builder": "0.8.4",
-    "@nuxt/schema": "3.14.159",
+    "@nuxt/schema": "3.14.1592",
     "@nuxt/test-utils": "3.14.4",
     "@types/serve-static": "1.15.7",
     "@vitest/coverage-v8": "2.1.5",
     "bumpp": "9.8.1",
     "eslint": "9.15.0",
-    "nuxt": "3.14.159",
+    "nuxt": "3.14.1592",
     "playwright": "1.49.0",
     "prettier": "3.3.3",
     "vitest": "2.1.5"
   },
   "resolutions": {
-    "@nuxt/schema": "3.14.159",
+    "@nuxt/schema": "3.14.1592",
     "@nuxtjs/harlem": "link:./"
   },
   "packageManager": "pnpm@9.13.2"
