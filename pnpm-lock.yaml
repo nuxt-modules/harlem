@@ -41,8 +41,8 @@ importers:
         specifier: 3.15.1
         version: 3.15.1
       '@nuxt/test-utils':
-        specifier: 3.15.3
-        version: 3.15.3(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)
+        specifier: 3.15.4
+        version: 3.15.4(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)
       '@types/serve-static':
         specifier: 1.15.7
         version: 1.15.7
@@ -878,8 +878,8 @@ packages:
     engines: {node: ^14.18.0 || >=16.10.0}
     hasBin: true
 
-  '@nuxt/test-utils@3.15.3':
-    resolution: {integrity: sha512-8N4XfZAkeaZaEeL1scXVICoCC6Pw1DggXvMTKueKYyglND08lqr6E+SqC7LklMZP3v8LBFknuiZoaiiOTaHJsA==}
+  '@nuxt/test-utils@3.15.4':
+    resolution: {integrity: sha512-R5eNXILsB5GCTMgoKdW3rN9rNBQCVBqxw4+tcujNplcivbJp7lQrRMHlbR9ijAJ1jEMkDNXdOQGbM1RnWvDuuQ==}
     engines: {node: ^18.20.5 || ^20.9.0 || ^22.0.0 || >=23.0.0}
     peerDependencies:
       '@cucumber/cucumber': ^10.3.1 || ^11.0.0
@@ -1775,10 +1775,6 @@ packages:
 
   consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
-    engines: {node: ^14.18.0 || >=16.10.0}
-
-  consola@3.3.1:
-    resolution: {integrity: sha512-GyKnPG3/I+a4RtJxgHquJXWr70g9I3c4NT3dvqh0LPHQP2nZFQBOBszb7a5u/pGzqr40AKplQA6UxM1BSynSXg==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   consola@3.3.3:
@@ -2807,9 +2803,6 @@ packages:
 
   magic-string@0.30.13:
     resolution: {integrity: sha512-8rYBO+MsWkgjDSOvLomYnzhdwEG51olQ4zL5KXnNJWV5MNmrb4rTZdrtkhxjnD/QyZUqR/Z/XDsUs/4ej2nx0g==}
-
-  magic-string@0.30.14:
-    resolution: {integrity: sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==}
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -4385,7 +4378,7 @@ snapshots:
   '@antfu/install-pkg@0.5.0':
     dependencies:
       package-manager-detector: 0.2.7
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
 
   '@antfu/utils@0.7.10': {}
 
@@ -5274,7 +5267,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/test-utils@3.15.3(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)':
+  '@nuxt/test-utils@3.15.4(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)':
     dependencies:
       '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@3.29.5)
       '@nuxt/schema': 3.15.1
@@ -6399,7 +6392,7 @@ snapshots:
 
   citty@0.1.6:
     dependencies:
-      consola: 3.3.1
+      consola: 3.3.3
 
   clean-regexp@1.0.0:
     dependencies:
@@ -6456,8 +6449,6 @@ snapshots:
   confbox@0.1.8: {}
 
   consola@3.2.3: {}
-
-  consola@3.3.1: {}
 
   consola@3.3.3: {}
 
@@ -7539,7 +7530,7 @@ snapshots:
       crossws: 0.3.1
       defu: 6.1.4
       get-port-please: 3.1.2
-      h3: 1.13.0
+      h3: 1.13.1
       http-shutdown: 1.2.2
       jiti: 2.4.2
       mlly: 1.7.3
@@ -7593,7 +7584,7 @@ snapshots:
   magic-regexp@0.8.0:
     dependencies:
       estree-walker: 3.0.3
-      magic-string: 0.30.14
+      magic-string: 0.30.17
       mlly: 1.7.3
       regexp-tree: 0.1.27
       type-level-regexp: 0.1.17
@@ -7605,10 +7596,6 @@ snapshots:
       magic-string: 0.30.17
 
   magic-string@0.30.13:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.0
-
-  magic-string@0.30.14:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -7692,7 +7679,7 @@ snapshots:
       jiti: 1.21.6
       mlly: 1.7.3
       pathe: 1.1.2
-      pkg-types: 1.2.1
+      pkg-types: 1.3.0
       postcss: 8.4.49
       postcss-nested: 6.2.0(postcss@8.4.49)
       semver: 7.6.3
@@ -8989,13 +8976,13 @@ snapshots:
       '@rollup/pluginutils': 5.1.3(rollup@3.29.5)
       chalk: 5.3.0
       citty: 0.1.6
-      consola: 3.3.1
+      consola: 3.3.3
       defu: 6.1.4
       esbuild: 0.19.12
       globby: 13.2.2
       hookable: 5.5.3
       jiti: 1.21.6
-      magic-string: 0.30.14
+      magic-string: 0.30.17
       mkdist: 1.6.0(typescript@5.6.3)
       mlly: 1.7.3
       pathe: 1.1.2
@@ -9354,7 +9341,7 @@ snapshots:
 
   vitest-environment-nuxt@1.0.1(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1):
     dependencies:
-      '@nuxt/test-utils': 3.15.3(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)
+      '@nuxt/test-utils': 3.15.4(@types/node@22.9.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@3.29.5)(terser@5.36.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.9.0)(terser@5.36.0))(yaml@2.6.1)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
