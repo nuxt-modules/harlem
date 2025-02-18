@@ -50,8 +50,8 @@ importers:
         specifier: 3.0.5
         version: 3.0.5(vitest@3.0.5(@types/node@22.13.1)(jiti@2.4.2)(terser@5.38.1)(yaml@2.7.0))
       bumpp:
-        specifier: 10.0.2
-        version: 10.0.2(magicast@0.3.5)
+        specifier: 10.0.3
+        version: 10.0.3(magicast@0.3.5)
       eslint:
         specifier: 9.20.0
         version: 9.20.0(jiti@2.4.2)
@@ -1333,8 +1333,8 @@ packages:
     resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
     engines: {node: '>=6'}
 
-  bumpp@10.0.2:
-    resolution: {integrity: sha512-17ztVdFfdoSStJyauUjhi+fWJ9wWmMloOhqwimLHnM3Pfd5+o/BJFwy3TDcK11bMVP5phari5/C4FxFgxXZHhw==}
+  bumpp@10.0.3:
+    resolution: {integrity: sha512-5ONBZenNf9yfTIl2vFvDEfeeioidt0fG10SzjHQw50BRxOmXzsdY+lab1+SDMfiW6UyJ1xQqzFymcy5wa8YhTA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5487,7 +5487,7 @@ snapshots:
 
   builtin-modules@3.3.0: {}
 
-  bumpp@10.0.2(magicast@0.3.5):
+  bumpp@10.0.3(magicast@0.3.5):
     dependencies:
       args-tokenizer: 0.3.0
       c12: 2.0.1(magicast@0.3.5)
