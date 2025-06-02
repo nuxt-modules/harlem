@@ -37,9 +37,9 @@
   "scripts": {
     "build": "nuxt-module-build build",
     "prepack": "pnpm build",
-    "dev": "nuxi dev playground",
-    "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "dev": "nuxt dev playground",
+    "dev:build": "nuxt build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxt prepare playground",
     "release": "bumpp && npm publish && git push --follow-tags",
     "test:e2e": "vitest run test/e2e"
   },
