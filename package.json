@@ -61,7 +61,7 @@
     "bumpp": "10.1.1",
     "eslint": "9.28.0",
     "nuxt": "3.17.5",
-    "playwright": "1.52.0",
+    "playwright": "1.53.0",
     "vitest": "3.2.3"
   },
   "resolutions": {
