@@ -61,12 +61,12 @@
     "bumpp": "10.2.3",
     "eslint": "9.33.0",
     "nuxt": "3.17.5",
-    "playwright": "1.54.2",
+    "playwright": "1.55.0",
     "vitest": "3.2.4"
   },
   "resolutions": {
     "@nuxt/schema": "3.17.5",
     "@nuxtjs/harlem": "link:./"
   },
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.15.0"
 }
