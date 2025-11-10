@@ -68,5 +68,5 @@
     "@nuxt/schema": "4.2.1",
     "@nuxtjs/harlem": "link:./"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.21.0"
 }
