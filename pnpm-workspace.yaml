@@ -1,7 +1,15 @@
 packages:
   - "playground"
 
-
 overrides:
   "@nuxt/schema": "4.4.5"
   "@nuxtjs/harlem": "link:./"
+
+strictPeerDependencies: false
+
+shamefullyHoist: true
+
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  unrs-resolver: false
