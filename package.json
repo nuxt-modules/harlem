@@ -64,5 +64,5 @@
     "playwright": "1.61.1",
     "vitest": "4.1.9"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.10.0"
 }
