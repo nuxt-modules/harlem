@@ -57,12 +57,12 @@
     "@nuxt/schema": "4.4.8",
     "@nuxt/test-utils": "4.0.3",
     "@types/serve-static": "2.2.0",
-    "@vitest/coverage-v8": "4.1.9",
+    "@vitest/coverage-v8": "4.1.10",
     "bumpp": "11.1.0",
     "eslint": "10.6.0",
     "nuxt": "4.4.8",
     "playwright": "1.61.1",
-    "vitest": "4.1.9"
+    "vitest": "4.1.10"
   },
   "packageManager": "pnpm@11.10.0"
 }
