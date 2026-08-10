@@ -59,7 +59,7 @@
     "@types/serve-static": "2.2.0",
     "@vitest/coverage-v8": "4.1.10",
     "bumpp": "12.2.0",
-    "eslint": "10.8.0",
+    "eslint": "10.8.1",
     "nuxt": "4.5.2",
     "playwright": "1.62.1",
     "vitest": "4.1.10"
