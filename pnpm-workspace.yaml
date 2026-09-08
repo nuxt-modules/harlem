@@ -3,7 +3,7 @@ packages:
 
 overrides:
   "@nuxt/schema": "4.5.2"
-  "@nuxtjs/harlem": "link:./"
+  "@nuxtjs/harlem": "workspace:*"
 
 strictPeerDependencies: false
 
