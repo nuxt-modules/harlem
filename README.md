@@ -19,7 +19,7 @@ Harlem is a simple, unopinionated, lightweight and extensible state management s
 - 👌 Zero-config required
 - 🐨 Simple, functional state management
 - 🧱 Easily extensible
-- 💯 Nuxt 3 support
+- 💯 Nuxt 3, 4 and 5 support
 
 ## Quick setup
 
